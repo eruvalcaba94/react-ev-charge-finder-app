@@ -6,7 +6,7 @@ const Map = () => {
     
     <div>
         <header>
-            <NavBar className='sticky top-0' />
+            <NavBar />
         </header>
         <div>
             <h1>Map Me!</h1>

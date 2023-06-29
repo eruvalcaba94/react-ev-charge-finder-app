@@ -9,7 +9,7 @@ const MobileApp = () => {
   return (
     
     <div>
-        <NavBar className='sticky top-0' />
+        <NavBar />
         <div className='flex justify-center items-center h-[560px] overflow-hidden bg-purple-900'>
             <img src={PhoneApp} alt="/" className='relative opacity-30' />
             <div className='absolute flex justify-center items-center flex-col'>

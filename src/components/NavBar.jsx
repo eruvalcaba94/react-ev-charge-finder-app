@@ -22,7 +22,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className='flex bg-background'>
+    <div className='flex bg-background sticky top-0 z-10'>
       <div className='flex justify-between items-center w-full h-24 mx-8 px-4'>
         <h1 className='flex items-center w-full text-3xl font-display text-[#800ABF]'>
           <Link to='/react-ev-charge-finder-app'>

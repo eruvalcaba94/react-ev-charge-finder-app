@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 const GuidePage = () => {
   return (
     <div>
-      <NavBar className='sticky top-0' />
+      <NavBar />
       <Guides />
       <Footer />
     </div>

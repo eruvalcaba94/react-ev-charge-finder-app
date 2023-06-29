@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     
     <div>
-        <NavBar className='sticky top-0' />
+        <NavBar />
         <div className='flex flex-col justify-center items-center h-screen w-full bg-slate-200'>
           <div className='flex flex-col justify-center items-center rounded-md bg-background w-3/4 h-full my-20 py-10'>
             <h1 className='font-display text-3xl mb-10'>Contact Us</h1>
