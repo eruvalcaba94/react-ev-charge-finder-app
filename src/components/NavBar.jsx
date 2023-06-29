@@ -25,7 +25,7 @@ const NavBar = () => {
     <div className='flex bg-background'>
       <div className='flex justify-between items-center w-full h-24 mx-8 px-4'>
         <h1 className='flex items-center w-full text-3xl font-display text-[#800ABF]'>
-          <Link to='/'>
+          <Link to='/react-ev-charge-finder-app'>
             Volt<span className='text-textColor'>Spot </span>
           </Link>
           <BsFillLightningChargeFill />
