@@ -8,7 +8,7 @@ import { FaBookOpen, FaMap, FaDownload, FaChargingStation, FaHome, FaDollarSign 
 const Home = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar className='sticky top-0' />
       <div className='flex justify-center items-center bg-black'>
         <video src={VideoBG} autoPlay loop muted className='w-full h-[685px] object-cover relative opacity-60' />
         <div className='absolute flex flex-col justify-center items-center'>

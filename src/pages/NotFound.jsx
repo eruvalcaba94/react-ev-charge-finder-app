@@ -6,7 +6,7 @@ import { BiSolidError } from 'react-icons/bi'
 const NotFound = () => {
   return (
     <div>
-        <NavBar />
+        <NavBar className='sticky top-0' />
         <div className='flex flex-col justify-center items-center text-center w-full h-screen bg-slate-200'>
             <BiSolidError size={100} className='text-orange-600' />
             <h1 className='font-display text-6xl mb-3'>Error 404</h1>
