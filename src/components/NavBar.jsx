@@ -57,8 +57,8 @@ const NavBar = () => {
         <div
           className={
             nav
-              ? 'z-10 bg-gray-800 border-l border-l-gray-800 fixed top-24 right-0 w-[40%] h-screen ease-in duration-500'
-              : 'z-10 border-l border-l-gray-800 fixed top-24 right-[-100%] h-full ease-linear duration-300'
+              ? 'z-10 bg-gray-800 border-l border-l-gray-800 fixed top-24 right-0 w-[60%] h-screen ease-in duration-500'
+              : 'z-10 border-l border-l-gray-800 fixed top-24 right-[-100%] h-screen ease-linear duration-300'
           }
         >
           <div>
